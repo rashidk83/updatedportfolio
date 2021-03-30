@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: white;
+  }
+  
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background:white;
+    margin: 0 0 10% 0;
+    border-top: 0;
+    height: 150px;
+    width: 100%;
+    color:black;
+    border: black solid; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    border:red 2px solid;
+    margin-right: 25%;
+    list-style-type: none;
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 2.8rem;
+    margin-top: 5%;
+    max-width: 35%;
+    text-align: center;
+    margin-right: auto;
+   }
+  
+  header img {
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    position: relative;
+    margin-right: auto;
+  }
+  
+  section {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+  }
+  
+  .card {
+    border-right: rgb(247, 248, 245) 7px solid;
+    min-width: 100px;
+    min-height: 200px;
+    text-align: right;
+    float: left;
+    padding-right: 15px;
+    display: block;
+  }
+  
+  .content img {
+    border: rgb(128, 0, 17) 1px solid;
+    width: 50%;
+    padding: 25px;
+    position: relative;
+  }
+  
+  .content {
+    border: rgb(128, 0, 17) 2px solid;
+    width: 90%;
+    padding: 25px;
+  }
+  
+  .content p {
+    margin-left: 2.5%;
+  }
+  
+  .text {
+    justify-content: flex-end;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    width: 25%;
+    background-color: #7f867b;
+  }
+  
+  .card {
+    border-right: rgb(247, 248, 245) 7px solid;
+    min-width: 250px;
+    min-height: 200px;
+    text-align: right;
+    float: left;
+  }
+  
+  .card h2 {
+    margin-right: 2.5%;
+  }
+  
+  section {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+  }
+ 
+  .footer-text-left {
+    font: size 20px;
+    float: left;
+
+  }
+
+
+  footer {
+    display:block;
+    color:black;
+    justify-content: space-around;
+    background:white;
+    padding: 30px;
+    clear: both;
+    padding-top: 10px;
+    margin-right: 20px;
+    flex-direction:column;
+  }
+  .footer ul a {
+    text-align: center;
+    list-style-type: none;
+    text-decoration-line: none;
+    font-size: 20px;
+    color:black;
+  }
+  
+  @media screen and (max-width: 992px) {
+    #container {
+      flex: 1;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #container {
+      flex: 2;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    #container {
+      flex: 3;
+    }
+    nav ul {
+      display: block;
+    }
+    header h1 {
+      font-size: 20px;
+   }
+  
+   
+  }
+  
