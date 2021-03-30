@@ -89,9 +89,9 @@ This homework is graded based on the following criteria:
 You are required to submit BOTH of the following for review:
 
 * The URL of the deployed application.
-https://rashidk83.github.io/portfolio/
+
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-https://github.com/rashidk83/portfolio
+
 
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
